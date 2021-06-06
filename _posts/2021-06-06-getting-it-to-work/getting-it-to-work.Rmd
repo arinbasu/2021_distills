@@ -1,0 +1,32 @@
+---
+title: "Getting it to work"
+description: |
+  How to set up a blog with Distill correctly
+author:
+  - name: Arindam Basu
+    url: https://www.medium.com
+date: 06-06-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+It is not very intuitive to set up a blog with Distill and run with Github Pages. 
+
+## Steps
+1. Start with a github repo
+2. Clone it in Rstudio
+3. Then `create_blog("cloned_repo")
+4. Then click the individual page to be knitted
+
+> You work on blog posts independent of the enclosing website (use Knit to render and preview the post just like any R Markdown document). This is in fact the only way to update post content — posts are considered standalone documents that are not re-rendered when the site is built. This is because posts are often expensive to render and have R package dependencies that may be difficult to satisfy as time goes on.
+

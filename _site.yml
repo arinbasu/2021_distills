@@ -1,0 +1,12 @@
+name: "2021_distills"
+title: "Data Science Blog with R"
+description: |
+  Data Science Blog with R
+output_dir: "."
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

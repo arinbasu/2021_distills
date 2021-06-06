@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-06-06-getting-it-to-work/",
+    "title": "Getting it to work",
+    "description": "How to set up a blog with Distill correctly",
+    "author": [
+      {
+        "name": "Arindam Basu",
+        "url": "https://www.medium.com"
+      }
+    ],
+    "date": "2021-06-06",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\nIt is not very intuitive to set up a blog with Distill and run with Github Pages.\nSteps\nStart with a github repo\nClone it in Rstudio\nThen `create_blog(“cloned_repo”)\nThen click the individual page to be knitted\n\nYou work on blog posts independent of the enclosing website (use Knit to render and preview the post just like any R Markdown document). This is in fact the only way to update post content — posts are considered standalone documents that are not re-rendered when the site is built. This is because posts are often expensive to render and have R package dependencies that may be difficult to satisfy as time goes on.\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-06-06T08:43:11+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Data Science Blog with R",
+    "description": "Welcome to our new blog, Data Science Blog with R.",
+    "author": [
+      {
+        "name": "Arindam Basu",
+        "url": "https://www.medium.com"
+      }
+    ],
+    "date": "2021-06-06",
+    "categories": [],
+    "contents": "\nThis is a distill based blog\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-06-06T08:33:39+00:00",
+    "input_file": {}
+  }
+]

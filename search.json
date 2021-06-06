@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "path": "index.html",
+      "title": "Data Science Blog with R",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-06T08:44:19+00:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

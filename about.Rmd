@@ -1,0 +1,10 @@
+---
+title: "About this blog"
+description: |
+  Blog on data science and machine learning with R
+---
+## Data science and machine learning with R
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

@@ -1,0 +1,5 @@
+---
+title: "Data Science Blog with R"
+site: distill::distill_website
+listing: posts
+---
